@@ -35,7 +35,7 @@ const Experience = () => {
     {
       type: ' National level Tech Symposium',
       title: ' Sympo-Winner',
-      organization: '',
+      organization: 'St.Josephs College of Engineering',
       location: 'Chennai, India',
       duration: 'Aug-Sep 2024',
       description: 'First place winner for Prompt engineering and Technical Debate.',
