@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Brain, BarChart3, Eye, MessageSquare } from 'lucide-react';
+import { ExternalLink, Github, Brain, BarChart3, Eye, MessageSquare, User } from 'lucide-react';
 import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -7,6 +7,7 @@ const Projects = () => {
   const projects = [
     {
       title: 'Intelligent Recommendation System',
+      role: 'ML Engineer & Data Scientist',
       description: 'Machine learning-based recommendation engine using collaborative filtering and content-based approaches for personalized user experiences.',
       tech: ['Python', 'TensorFlow', 'Pandas', 'Scikit-learn'],
       icon: Brain,
@@ -15,6 +16,7 @@ const Projects = () => {
     },
     {
       title: 'AYUSH-ONE',
+      role: 'Full Stack Developer & UI/UX Designer',
       description: 'Our project AYUSH ONE aimed to bridge the gap between traditional medicine (AYUSH) and modern medicine through a unified digital portal – making AYUSH doctors more accessible, trusted, and discoverable for citizens.',
       tech: ['React', 'Voice-Flow', 'Supabase', 'Jitsi','TailwindCSS'],
       icon: BarChart3,
@@ -22,15 +24,17 @@ const Projects = () => {
       demo: 'https://ayushone.vercel.app/'
     },
     {
-      title: 'Computer Vision Analytics',
-      description: 'Real-time object detection and tracking system using YOLO and OpenCV for automated surveillance applications.',
-      tech: ['Python', 'OpenCV', 'YOLO', 'PyTorch'],
+      title: 'Jaundice Prediction with Deep Learning',
+      role: 'Front-end Developer',
+      description: 'Developed a DL model to detect Jaundice through images of Skin and eyes for early healthcare intervention and diagnosis.',
+      tech: ['React', 'Tailwind', 'HTML'],
       icon: Eye,
       github: '#',
       demo: '#'
     },
     {
       title: 'NLP Sentiment Analyzer',
+      role: 'NLP Engineer & Backend Developer',
       description: 'Multi-language sentiment analysis tool with fine-tuned transformer models for social media and review analysis.',
       tech: ['Python', 'Transformers', 'BERT', 'Flask'],
       icon: MessageSquare,
@@ -90,6 +94,17 @@ const Projects = () => {
                 <h3 className="text-xl font-display font-semibold text-primary group-hover:text-accent transition-colors">
                   {project.title}
                 </h3>
+                
+                {/* 👆 ONLY NEW ADDITION - Role Badge */}
+                <div className="flex items-center mt-2">
+                  <User className="w-4 h-4 text-primary mr-2" />
+                  <Badge 
+                    variant="secondary" 
+                    className="bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
+                  >
+                    {project.role}
+                  </Badge>
+                </div>
               </CardHeader>
               
               <CardContent className="pb-4">

@@ -19,21 +19,21 @@ const Experience = () => {
       skills: ['Python', 'Pandas', 'Scikit-learn', 'Tableau']
     },
     {
-      type: 'project',
-      title: 'AI Research Assistant',
-      organization: 'R M K College Research Lab',
-      location: 'Kavaraipettai, India',
-      duration: 'Jan 2024 - Present',
-      description: 'Leading research project on computer vision applications in healthcare diagnostics.',
+      type: 'experience',
+      title: 'AI & ML Intern',
+      organization: 'NSIC-TECHNICAL SERVICES CENTRE',
+      location: 'Ekkaduthangal, Chennai',
+      duration: 'DEC 2024 - JAN 2025',
+      description: 'Leading research and Analysis on AI & ML projects.',
       achievements: [
-        'Implemented CNN models for medical image classification',
-        'Achieved 92% accuracy in diagnostic prediction models',
-        'Presented findings at college symposium'
+        'Implemented chatbots for Recommandation systems',
+        'Automated data preprocessing tasks using Python',
+        'Achieved 92% accuracy in ML models'
       ],
       skills: ['TensorFlow', 'OpenCV', 'Python', 'Research']
     },
     {
-      type: ' National level Tech Symposium',
+      type: 'hackathon',
       title: ' Sympo-Winner',
       organization: 'St.Josephs College of Engineering',
       location: 'Chennai, India',
@@ -45,34 +45,48 @@ const Experience = () => {
         'Showcased strong technical debate skills'
       ],
       skills: ['Prompt Engineering', 'Public Speaking', 'Team Collaboration']
+    },
+    {
+      type: 'hackathon',
+      title: 'Certified with Gold Badge',
+      organization: 'NPTEL',
+      YEAR: '2025',
+      description: 'Secured Elite+Gold Badge for Human-Computer Interaction.',
+      achievements: [
+        'Secured 90% in the Human-Computer Interaction Course',
+        'Provided with Certification with Gold Badge',
+         ],
+      skills: ['NLP', 'Time Management', 'Fast-Learner']
     }
   ];
 
   const certifications = [
     {
-      title: 'Machine Learning Specialization',
-      issuer: 'Coursera - Stanford University',
+      title: 'Machine Learning, Web-Development',
+      issuer: 'Wipro - Corizo',
       date: '2024',
-      credential: 'ML-2024-001'
     },
     {
-      title: 'Google Cloud Professional Data Engineer',
-      issuer: 'Google Cloud',
+      title: 'Genrative AI Professional,Oracle AI Vector Search',
+      issuer: 'Oracle',
+      date: '2025',
+    },
+    {
+      title: 'Software Testing,Human Computer Interaction, Design Thinking Primer',
+      issuer: 'NPTEL',
+      date: '2024-2025',
+    },
+    {
+      title: 'Data Science with Python,Cyber Security',
+      issuer: 'Wipro - Corizo',
       date: '2024',
-      credential: 'GCP-DE-001'
+      
     },
     {
-      title: 'Deep Learning with TensorFlow',
-      issuer: 'edX - MIT',
-      date: '2023',
-      credential: 'MIT-DL-023'
-    },
-    {
-      title: 'Data Science with Python',
-      issuer: 'Kaggle Learn',
-      date: '2023',
-      credential: 'KGL-DS-456'
-    }
+      title: 'Hindi Language Certifications',
+      issuer: 'Dakshin Bharat Hindi Prachar Sabha',
+      date: '2013-2018',
+      }
   ];
 
   const getTypeIcon = (type: string) => {
@@ -212,7 +226,6 @@ const Experience = () => {
                       <div className="flex justify-between items-center mt-2">
                         <span className="text-muted-foreground text-sm">{cert.date}</span>
                         <Badge variant="outline" className="text-xs">
-                          {cert.credential}
                         </Badge>
                       </div>
                     </div>
