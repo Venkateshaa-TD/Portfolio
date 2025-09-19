@@ -258,8 +258,7 @@ const Hero = () => {
               </div>
               
               <p className="text-lg md:text-xl mb-12 max-w-2xl text-blue-100/90 leading-relaxed">
-                Passionate about building intelligent systems, developing innovative web applications like Career Compass, 
-                and solving real-world problems through technology.
+               "Passionate about creating intelligent systems and impactful web applications that solve real-world problems."
               </p>
               
               {/* Action Buttons */}

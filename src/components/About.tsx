@@ -17,7 +17,7 @@ const About = () => {
     {
       icon: Code,
       title: 'Programming',
-      description: 'Python, R, SQL, and modern development practices'
+      description: 'Python,Java, SQL, and modern development practices'
     },
     {
       icon: TrendingUp,
