@@ -33,12 +33,12 @@ const Projects = () => {
       demo: '#'
     },
     {
-      title: 'NLP Sentiment Analyzer',
-      role: 'NLP Engineer & Backend Developer',
-      description: 'Multi-language sentiment analysis tool with fine-tuned transformer models for social media and review analysis.',
-      tech: ['Python', 'Transformers', 'BERT', 'Flask'],
+      title: 'Career Recommendation Site',
+      role: 'Full Stack Developer',
+      description: 'Career Guiding website for enlighting each and every students future',
+      tech: ['React', 'Tailwind', 'Voice Flow', 'Supabase'],
       icon: MessageSquare,
-      github: '#',
+      github: 'https://github.com/Venkateshaa-TD/Career-Compass.git',
       demo: '#'
     }
   ];
