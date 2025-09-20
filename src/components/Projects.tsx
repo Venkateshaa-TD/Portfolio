@@ -39,7 +39,7 @@ const Projects = () => {
       tech: ['React', 'Tailwind', 'Voice Flow', 'Supabase'],
       icon: MessageSquare,
       github: 'https://github.com/Venkateshaa-TD/Career-Compass.git',
-      demo: '#'
+      demo: 'https://career-compass-delta.vercel.app/'
     }
   ];
 
