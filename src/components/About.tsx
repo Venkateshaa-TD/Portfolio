@@ -1,6 +1,6 @@
 import { Brain, Database, Code, TrendingUp } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
-import profileAvatar from '@/assets/profile-avatar.jpg';
+import profileAvatar from '@/assets/profile-avatar.jpeg';
 
 const About = () => {
   const highlights = [
