@@ -9,7 +9,7 @@ import { useToast } from '@/hooks/use-toast';
 import { Download } from "lucide-react";
 
 <a 
-  href="/VENKATESHAA-TD Resume.pdf" 
+  href="/VENKATESHAA-T D-RESUME.pdf"
   download
 >
   <Button
