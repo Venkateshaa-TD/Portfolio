@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="flex justify-center md:justify-end space-x-4">
             {[
               { Icon: Github, href: 'https://github.com/Venkateshaa-TD', label: 'GitHub' },
-              { Icon: Linkedin, href: 'https://www.linkedin.com/in/venkateshaa-thiyagarajan-76a584321/', label: 'LinkedIn' },
+              { Icon: Linkedin, href: 'https://www.linkedin.com/in/venkateshaa-t-d', label: 'LinkedIn' },
               { Icon: Mail, href: '#contact', label: 'Email' },
             ].map(({ Icon, href, label }) => (
               <a
