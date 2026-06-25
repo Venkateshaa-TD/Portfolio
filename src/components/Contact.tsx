@@ -81,7 +81,7 @@ const Contact = () => {
 
   const socialLinks = [
     { icon: Github, label: 'GitHub', href: 'https://github.com/venkateshaa-td', color: 'hover:text-gray-600' },
-    { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/venkateshaa-thiyagarajan-76a584321/', color: 'hover:text-blue-600' },
+    { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/venkateshaa-t-d', color: 'hover:text-blue-600' },
     { icon: Twitter, label: 'Twitter', href: 'https://twitter.com/venkateshaa_td', color: 'hover:text-blue-400' }
   ];
 
