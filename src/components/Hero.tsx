@@ -273,7 +273,7 @@ const Hero = () => {
                   <ArrowDown className="ml-2 h-5 w-5" />
                 </Button>
                 <a 
-  href="/VENKATESHAA-TD Resume.pdf" 
+  href="/VENKATESHAA-T D-RESUME.pdf"
   download 
 >
   <Button
