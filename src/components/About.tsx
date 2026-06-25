@@ -40,7 +40,7 @@ const About = () => {
           {/* Profile Image */}
           <div className="animate-slide-up">
             <div className="relative">
-              <div className="w-80 h-80 mx-auto rounded-2xl overflow-hidden shadow-professional hover-lift">
+              <div className="w-72 h-72 md:w-96 md:h-96 lg:w-[450px] lg:h-[450px] mx-auto rounded-2xl overflow-hidden shadow-professional hover-lift">
                 <img 
                   src={profileAvatar} 
                   alt="Venkateshaa T D" 
