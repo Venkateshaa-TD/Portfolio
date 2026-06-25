@@ -11,8 +11,8 @@ const Projects = () => {
       description: 'Machine learning-based recommendation engine using collaborative filtering and content-based approaches for personalized user experiences.',
       tech: ['Python', 'TensorFlow', 'Pandas', 'Scikit-learn'],
       icon: Brain,
-      github: '#',
-      demo: '#'
+      github: 'https://github.com/Venkateshaa-TD?tab=repositories',
+      demo: 'https://github.com/Venkateshaa-TD?tab=repositories'
     },
     {
       title: 'AYUSH-ONE',
@@ -29,8 +29,8 @@ const Projects = () => {
       description: 'Developed a DL model to detect Jaundice through images of Skin and eyes for early healthcare intervention and diagnosis.',
       tech: ['React', 'Tailwind', 'HTML'],
       icon: Eye,
-      github: '#',
-      demo: '#'
+      github: 'https://github.com/Venkateshaa-TD?tab=repositories',
+      demo: 'https://github.com/Venkateshaa-TD?tab=repositories'
     },
     {
       title: 'Career Recommendation Site',
